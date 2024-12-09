@@ -113,3 +113,28 @@ ul.nav-menu {
     object-fit: cover;
     border-radius: 10px;
 }
+
+/* Quote styling */
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    text-align: justify;
+}
+
+.author {
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 24px;
+}
