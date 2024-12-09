@@ -54,7 +54,7 @@ ul.nav-menu {
     color: #e5e7eb;
 }
 
-.hero button {
+button {
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 900;
@@ -63,7 +63,6 @@ ul.nav-menu {
     border: none;
     border-radius: 8px;
     align-self: flex-start;
-
 }
 
 .hero-container img {
@@ -137,4 +136,21 @@ ul.nav-menu {
     color: #1f2937;
     font-weight: 900;
     font-size: 24px;
+}
+
+/* cta styling */
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882f6;
+    width: 70%;
+    padding: 50px;
+    justify-content: space-around;
+    border-radius: 10px;
 }
