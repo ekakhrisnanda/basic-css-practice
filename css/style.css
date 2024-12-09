@@ -4,7 +4,17 @@ body {
     box-sizing: border-box;
 }
 
-img {
+.hero-container img {
     width: 300px;
     height: auto;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card div.img {
+    max-width: 150px;
+    max-height: 150px;
 }
