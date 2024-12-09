@@ -162,3 +162,11 @@ button {
     border: 2px solid #e5e7eb;
     align-self: flex-end;
 }
+
+/* footer styling */
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+    text-align: center;
+}
